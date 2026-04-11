@@ -1,4 +1,17 @@
 /fastapienv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# IDE (JetBrains / PyCharm)
+.idea/
+*.iml/fastapienv/
 /.idea/FastAPI-The-Complete-Course.iml
 /.idea/misc.xml
 /.idea/modules.xml
@@ -8,3 +21,8 @@
 __pycache__/
 .idea
 env
+
+venv/
+__pycache__/
+*.pyc
+.DS_Store
